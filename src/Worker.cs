@@ -38,7 +38,7 @@ public class Worker : BackgroundService
                 _logger.LogInformation("No new issue is detected.");
             }
             
-            await Task.Delay(1000 * 60 * 60 * 24 * 7, stoppingToken);
+            await Task.Delay(1000 * 60 * 60, stoppingToken);
         }
     }
 }
