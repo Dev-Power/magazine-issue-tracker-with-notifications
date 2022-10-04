@@ -1,7 +1,7 @@
 using Microsoft.Extensions.Options;
 using Twilio.Rest.Api.V2010.Account;
 
-namespace MagazineTracker.NotificationServices;
+namespace MagazineTracker;
 
 public class SmsService : INotificationService
 {

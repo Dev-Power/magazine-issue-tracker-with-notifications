@@ -1,4 +1,4 @@
-namespace MagazineTracker.NotificationServices;
+namespace MagazineTracker;
 
 public class SmsSettings
 {

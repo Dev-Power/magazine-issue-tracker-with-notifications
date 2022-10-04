@@ -1,7 +1,5 @@
 using MagazineTracker;
 using MagazineTracker.Data;
-using MagazineTracker.MagazineTrackerServices;
-using MagazineTracker.NotificationServices;
 using Twilio;
 
 IHost host = Host.CreateDefaultBuilder(args)

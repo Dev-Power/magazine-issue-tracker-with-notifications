@@ -1,6 +1,6 @@
 using AngleSharp;
 
-namespace MagazineTracker.MagazineTrackerServices;
+namespace MagazineTracker;
 
 public class MagPiTrackerService : IMagazineTrackerService
 {
